@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class=frame>
+        <h1>Dictionary</h1>
+
+        <div class="selection_sec">
+            <select id="word_select">
+                <option value="">--Select--</option>
+                <option value="Teamwork" data-sentence="Teamwork makes the dream work">Teamwork</option>
+                <option value="Squirrel" data-sentence="The gray squirrel buried an acorn in the park">Squirrel</option>
+                <option value="Jewelry" data-sentence="That necklace is a stunning piece of jewelry">Jewelry</option>
+                <option value="Mischievous" data-sentence="Our dog is very mischievous">Mischievous</option>
+                <option value="Epitome" data-sentence="She is the epitome of kindness">Epitome</option>
+            </select>
+
+            <button onclick="speak_word()">Word sound</button>
+        </div>
+
+        <div class="selection_sentence">
+            <textarea id="sentence_display" readonly placeholder="Sentence here..."></textarea>
+            <button onclick="speak_sentence()">Sentence sound</button>
+
+        </div>
+
+    </div>    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
