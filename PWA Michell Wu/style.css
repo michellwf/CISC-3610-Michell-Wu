@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef5fb;
+  color: #0b1d45;
+}
+
+/* HERO */
+.hero {
+  height: 500px;
+
+  background:
+    linear-gradient(
+      rgba(0,0,0,.2),
+      rgba(0,0,0,.3)
+    ),
+    url("images/hero_image-01.svg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #fff7c8;
+  font-size: 110px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.hero p {
+  color: white;
+  font-size: 28px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+#installBtn {
+  margin-top: 25px;
+
+  padding: 14px 30px;
+
+  border: none;
+  border-radius: 50px;
+
+  background: #fff7c8;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+/* LAYOUT */
+.app-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+
+  gap: 25px;
+
+  padding: 25px;
+}
+
+/* MENU */
+.menu-card {
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+  height: fit-content;
+}
+
+.menu-card h2 {
+  margin-top: 0;
+
+  font-size: 28px;
+}
+
+/* MENU BUTTONS */
+#menu button {
+  width: 100%;
+
+  border: none;
+  border-radius: 15px;
+
+  background: transparent;
+
+  padding: 18px;
+
+  margin-bottom: 10px;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  text-align: left;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  color: #17346d;
+
+  transition: .3s;
+}
+
+#menu button:hover {
+  background: #e8f2ff;
+}
+
+#menu button.active {
+  background: #dbeafe;
+}
+
+.menu-icon {
+  font-size: 36px;
+  width: 45px;
+}
+
+/* CONTENT */
+.content-card {
+  background: white;
+
+  border-radius: 20px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 30px;
+
+  align-items: center;
+}
+
+.text-area h2 {
+  margin-top: 0;
+
+  font-size: 50px;
+
+  color: #0b1d45;
+}
+
+.text-area p {
+  font-size: 28px;
+
+  line-height: 1.5;
+}
+
+.content-card img {
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+  background: #091b3b;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+
+  font-size: 22px;
+}
+
+/* MOBILE */
+@media(max-width: 900px) {
+
+  .hero h1 {
+    font-size: 65px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .app-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .content-card {
+    grid-template-columns: 1fr;
+  }
+
+}

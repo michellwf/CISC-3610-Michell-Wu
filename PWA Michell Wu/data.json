@@ -1,0 +1,61 @@
+{
+  "marineLife": [
+    {
+      "title": "Sea Turtle",
+      "icon": "🐢",
+      "description": "Sea turtles are marine reptiles with streamlined bodies and large flippers that are well-adapted to life in the ocean. There are seven types of sea turtles: leatherback, green, flatback, loggerhead, hawksbill, Kemp’s ridley, and olive ridley.",
+      "funFacts": [
+    "Depending on the type, some sea turtles eat jellyfish, seagrass, and algae.",
+    "Baby sea turtles hatch from eggs in the sand.",
+    "Sea turtles have been around since the time of dinosaurs."],
+      "image": "images/sea-turtle.jpg",
+      "audio": "audio/sea-turtle.mp3"
+    },
+
+    {
+      "title": "Dolphin",
+      "icon": "🐬",
+      "description": "Dolphins are intelligent marine mammals known for communication and social behavior. Dolphins look like large fish, but they are actually small whales. Dolphins can be found throughout the world in either salt water or fresh water. The most widespread species, or kinds, are the common and bottlenose dolphins.",
+      "image": "images/dolphin.png",
+      "funFacts": [
+    "Dolphins are very smart and can recognize themselves in mirrors.",
+    "Dolphins sleep with one eye open.",
+    "Dolphins live in groups called pods."],
+      "audio": "audio/dolphin.mp3"
+    },
+
+    {
+      "title": "Octopus",
+      "icon": "🐙",
+      "description": "Octopuses are sea animals famous for their rounded bodies, bulging eyes, and eight long arms. They live in all the world’s oceans but are especially abundant in warm, tropical waters. Most octopuses stay along the ocean’s floor, although some species are pelagic, which means they live near the water’s surface. ",
+      "funFacts": [
+    "Octopuses have 8 arms covered with suction cups.",
+    "Octopuses have three hearts.",
+    "They are very smart and can solve puzzles."],
+      "image": "images/octupus.jpg",
+      "audio": "audio/octopus.mp3"
+    },
+    {
+      "title": "Jellyfish",
+      "icon": "🪼",
+      "description": "Jellyfish are sea animals with a soft, jellylike body and no bones. Some can glow in the dark and have stinging tentacles for protection and catching food.",
+      "funFacts": [
+    "They move by pulsing their soft bodies.",
+    "Jellyfish have been in the ocean for millions of years."],
+      "image": "images/jellyfish.jpg",
+      "audio": "audio/jellyfish.mp3"
+    },
+
+    {
+      "title": "Shark",
+      "icon": "🦈",
+      "description": "Sharks are fast-swimming fishes that have a skeleton made of cartilage instead of bone. Most sharks live in oceans in the mild or warm parts of Earth.",
+      "funFacts": [
+     "Sharks have an amazing sense of smell.",
+     "Whale sharks are the biggest fish in the ocean.",
+    "Sharks have lots of teeth and can grow new ones."],
+      "image": "images/shark.jpg",
+      "audio": "audio/shark.mp3"
+    }
+  ]
+}
