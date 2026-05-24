@@ -1,0 +1,79 @@
+body {
+      background-color: #fcf7f0;
+      font-family: Georgia, serif;
+    }
+
+    h3{
+        font-size:140%;
+        font-weight: 800;
+    }
+
+
+    .custom-badge1{
+        background-color: #481011;
+    }
+    .custom-badge2{
+        background-color: #daab3e;
+    }
+    .custom-badge3{
+        background-color: #891a1b;
+    }
+
+    section.hero {
+      padding: 60px 20px;
+    }
+
+    h2{
+        text-align: center;
+        padding-bottom: 2%;
+        color: rgb(253, 244, 233);
+        font-size: 300%;
+    }
+
+    h4{
+        text-align: center;
+        padding-bottom: 2%;
+        color: rgb(71, 28, 12);
+        font-size: 300%;
+        padding-top: 2%;
+    }
+
+    #education {
+    background-image: url("pattern.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+    }
+
+    #experience {
+    padding: 3px 50px 3%;
+    }
+    
+    .accordion-item {
+  margin-bottom: 15px;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+    .accordion-button {
+    font-size: 20px;
+    padding: 25px;
+    background-color: #f3dfd3;
+    color: #3d2b11;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ca737f;
+  color: white;
+}
+
+.carousel {
+  overflow: hidden;
+  padding-bottom: 10%;
+}
+
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+}
