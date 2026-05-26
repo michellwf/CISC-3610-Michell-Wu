@@ -9,7 +9,7 @@
     "Baby sea turtles hatch from eggs in the sand.",
     "Sea turtles have been around since the time of dinosaurs."],
       "image": "images/sea-turtle.jpg",
-      "audio": "audio/sea-turtle.mp3"
+      "audio": "images/Seaturtle_audio.mp3"
     },
 
     {
@@ -21,7 +21,7 @@
     "Dolphins are very smart and can recognize themselves in mirrors.",
     "Dolphins sleep with one eye open.",
     "Dolphins live in groups called pods."],
-      "audio": "audio/dolphin.mp3"
+      "audio": "images/dolphins_audio.mp3"
     },
 
     {
@@ -33,7 +33,7 @@
     "Octopuses have three hearts.",
     "They are very smart and can solve puzzles."],
       "image": "images/octupus.jpg",
-      "audio": "audio/octopus.mp3"
+      "audio": "images/octupus_audio.mp3"
     },
     {
       "title": "Jellyfish",
@@ -43,7 +43,7 @@
     "They move by pulsing their soft bodies.",
     "Jellyfish have been in the ocean for millions of years."],
       "image": "images/jellyfish.jpg",
-      "audio": "audio/jellyfish.mp3"
+      "audio": "images/jellyfish_audio.mp3"
     },
 
     {
@@ -55,7 +55,7 @@
      "Whale sharks are the biggest fish in the ocean.",
     "Sharks have lots of teeth and can grow new ones."],
       "image": "images/shark.jpg",
-      "audio": "audio/shark.mp3"
+      "audio": "images/shark_audio.mp3"
     }
   ]
 }
